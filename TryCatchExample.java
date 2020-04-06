@@ -9,7 +9,7 @@ public class TryCatchExample {
 
       y = 0;
 
-      System.out.println(x/y);
+      System.out.println(x/y);  // Ao tentar dividir por 0 caira no catch
 
     } catch (Exception e) {
       System.out.println("Algo deu errado. Nao foi possivel executar o codigo.");
