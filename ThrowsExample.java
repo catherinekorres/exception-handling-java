@@ -8,7 +8,7 @@ public class ThrowsExample {
 
       y = 0;
 
-      System.out.println(x/y);
+      System.out.println(x/y);  // Ao tentar dividir por 0 caira no catch
 
   }
 
